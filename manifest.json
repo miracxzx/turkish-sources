@@ -1,0 +1,143 @@
+{
+  "name": "Turkish Film Sources",
+  "description": "Nuvio için Türkçe Film, Dizi ve Anime Eklenti Deposu (FullHDFilmizlesene, HDFilmCehennemi, FilmModu, DiziBox, DiziFilmizle, DDizi, DiziYou, AnimeciX)",
+  "version": "1.0.0",
+  "author": "Community",
+  "scrapers": [
+    {
+      "name": "FullHDFilmizlesene",
+      "description": "Türkçe dublaj & altyazılı film kaynağı • fullhdfilmizlesene",
+      "version": "1.4.1",
+      "filename": "providers/fullhdfilm.js",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "hasSettings": true,
+      "logo": "https://www.fullhdfilmizlesene.pw/favicon.ico"
+    },
+    {
+      "name": "HDFilmCehennemi",
+      "description": "HD film kaynağı • Türkçe dublaj & altyazı, CloseLoad adaptif HLS",
+      "version": "1.8.22",
+      "filename": "providers/hdfilmcehennemi.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "formats": [
+        "hls",
+        "m3u8"
+      ],
+      "hasSettings": false,
+      "logo": "https://hdfilmcehennemi.life/favicon.ico"
+    },
+    {
+      "name": "FilmModu",
+      "description": "Türkçe dublaj ve altyazılı 1080p filmler • FilmModu",
+      "version": "1.8.22",
+      "filename": "providers/filmmodu.js",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "hasSettings": false
+    },
+    {
+      "name": "DiziBox",
+      "description": "Yabancı dizi arşivi • Türkçe dublaj & altyazı • DiziBox",
+      "version": "1.8.22",
+      "filename": "providers/dizibox.js",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "hasSettings": false
+    },
+    {
+      "name": "DiziFilmizle",
+      "description": "Türkçe dublaj & altyazılı film ve dizi kaynağı • DiziFilmizle",
+      "version": "1.7.2",
+      "filename": "providers/dizifilm.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "hasSettings": true
+    },
+    {
+      "name": "DDizi",
+      "description": "Yerli ve yabancı diziler • DDizi",
+      "version": "1.8.22",
+      "filename": "providers/ddizi.js",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "hasSettings": false
+    },
+    {
+      "name": "DiziYou",
+      "description": "Yabancı diziler • DiziYou",
+      "version": "1.8.22",
+      "filename": "providers/diziyou.js",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "hasSettings": false
+    },
+    {
+      "name": "AnimeciX",
+      "description": "Türkçe anime arşivi • AnimeciX",
+      "version": "1.3.4",
+      "filename": "providers/animecix.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "formats": [
+        "mp4"
+      ],
+      "hasSettings": true
+    }
+  ]
+}
