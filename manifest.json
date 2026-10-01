@@ -1,10 +1,12 @@
 {
+  "id": "turkish-sources",
   "name": "Turkish Film Sources",
   "description": "Nuvio için Türkçe Film, Dizi ve Anime Eklenti Deposu (FullHDFilmizlesene, HDFilmCehennemi, FilmModu, DiziBox, DiziFilmizle, DDizi, DiziYou, AnimeciX)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Community",
   "scrapers": [
     {
+      "id": "fullhdfilm",
       "name": "FullHDFilmizlesene",
       "description": "Türkçe dublaj & altyazılı film kaynağı • fullhdfilmizlesene",
       "version": "1.4.1",
@@ -22,6 +24,7 @@
       "logo": "https://www.fullhdfilmizlesene.pw/favicon.ico"
     },
     {
+      "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "description": "HD film kaynağı • Türkçe dublaj & altyazı, CloseLoad adaptif HLS",
       "version": "1.8.22",
@@ -42,6 +45,7 @@
       "logo": "https://hdfilmcehennemi.life/favicon.ico"
     },
     {
+      "id": "filmmodu",
       "name": "FilmModu",
       "description": "Türkçe dublaj ve altyazılı 1080p filmler • FilmModu",
       "version": "1.8.22",
@@ -58,6 +62,7 @@
       "hasSettings": false
     },
     {
+      "id": "dizibox",
       "name": "DiziBox",
       "description": "Yabancı dizi arşivi • Türkçe dublaj & altyazı • DiziBox",
       "version": "1.8.22",
@@ -74,6 +79,7 @@
       "hasSettings": false
     },
     {
+      "id": "dizifilm",
       "name": "DiziFilmizle",
       "description": "Türkçe dublaj & altyazılı film ve dizi kaynağı • DiziFilmizle",
       "version": "1.7.2",
@@ -91,6 +97,7 @@
       "hasSettings": true
     },
     {
+      "id": "ddizi",
       "name": "DDizi",
       "description": "Yerli ve yabancı diziler • DDizi",
       "version": "1.8.22",
@@ -107,6 +114,7 @@
       "hasSettings": false
     },
     {
+      "id": "diziyou",
       "name": "DiziYou",
       "description": "Yabancı diziler • DiziYou",
       "version": "1.8.22",
@@ -123,6 +131,7 @@
       "hasSettings": false
     },
     {
+      "id": "animecix",
       "name": "AnimeciX",
       "description": "Türkçe anime arşivi • AnimeciX",
       "version": "1.3.4",
